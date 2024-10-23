@@ -32,7 +32,7 @@
     height: 6px;
     background: #3c009d;
     border-radius: 9px;
-    
+    align-items: center;
 }
 
 .inputs{
@@ -46,8 +46,8 @@
     display: flex;
     align-items: center;
     margin: auto;
-    width: 480px;
-    height: 60px;
+    width: 350px;
+    height: 25px;
     background: rgb(202, 202, 202);
     border-radius: 6px;
 }
@@ -59,7 +59,7 @@
     border: none;
     outline: none;
     color: #797979;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 .forgot-password{

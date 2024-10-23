@@ -21,6 +21,12 @@ const Loginsignup = () => {
             <div className="input">
                 <input type="password" placeholder="Password"/>
             </div>
+            {action==="Login"?<div></div>:<div className="input">
+                <input type="Address" placeholder="Address"/>
+            </div>}
+            {action==="Login"?<div></div>:<div className="input">
+                <input type="Mobile" placeholder="Mobile"/>
+            </div>}
         </div>
         <div className="forgot-password">Lost Password? <span> Click Here!</span></div>
         <div className="submit-container">
